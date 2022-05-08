@@ -111,7 +111,7 @@
 .nard {
   margin-left: auto;
   margin-right: auto;
-  border-radius: 11px;
+  border-radius: 10px;
   background-color: aliceblue;
   width: calc((100vw - 152vh)/4);
   height: calc((100vw - 152vh)/4);
@@ -128,8 +128,8 @@
 .one_point {
   border-radius: 50%;
   background-color: black;
-  width: 18px;
-  height: 18px;
+  width: 14px;
+  height: 14px;
 
   display: inline-block;
   vertical-align: middle;
@@ -140,23 +140,76 @@
 .point {
   border-radius: 50%;
   background-color: black;
-  width: 14px;
-  height: 14px;
+  width: 10px;
+  height: 10px;
 
   display: inline-block;
   vertical-align: middle;
-  margin: auto;
+  margin-bottom: 4px;
 
 }
 
 #parent_div {
-  background-image: url("./img/background.jpg");
+  background-image: url("./img/background3.png");
+  background-size: 100%;
   overflow-x: hidden;
   overflow-y: hidden;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: 50% 0px;
   background-color: #e8b36d;
+}
+
+.imgSetting {
+  width: 14vh;
+  height: auto;
+  border-radius: 50%;
+  border: none;
+}
+
+.rowName {
+  margin-top: 5px;
+}
+
+.setting {
+  color: azure;
+  font-size: 18px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  height: 100vh;
+  padding: 5px;
+  background-color: rgba(2, 18, 48, 0.664);
+}
+
+.startGame {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: auto;
+  color: aliceblue;
+  background-color: rgba(11, 23, 61, 0.966);
+  font-size: 26px;
+  border: none;
+  border-radius: 5px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+.playerName {
+  border: none;
+  border-radius: 6px;
+  margin-left: 13px;
+  width: calc((100vw / 2) - (26px + 15vh));
+}
+
+.nbPlayers {
+  width: 20px;
+  height: 20px;
+}
+
+.labelNbPlayers {
+  font-size: 28px;
 }
 
 .red {
